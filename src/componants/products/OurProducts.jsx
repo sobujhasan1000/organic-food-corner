@@ -62,11 +62,11 @@ const OurProducts = () => {
               alt={product.name}
               className="w-full h-fit object-cover"
             />
-            <div className="flex justify-between">
+            <div className="flex justify-between bg-slate-100">
               <p className=" text-sm font-semibold p-2">{product.name}</p>
               <p className=" text-sm font-bold p-2">${product.price}</p>
             </div>
-            <div className="p-2 flex justify-center  ">
+            <div className="p-2 flex justify-center bg-slate-100 ">
               {user?.role === "meheraadmin" ? (
                 <button
                   onClick={() => handleDelete(product._id)}
@@ -76,7 +76,7 @@ const OurProducts = () => {
                 </button>
               ) : (
                 <Link to="/checkOutPage" state={{ product }}>
-                  <button className="bg-red-500 p-2 rounded-md text-white ">
+                  <button className="bg-[#30d490] p-2 rounded-md text-white ">
                     Order Now
                   </button>
                 </Link>
