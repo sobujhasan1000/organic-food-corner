@@ -35,30 +35,30 @@ const Navbar = () => {
             {user ? (
               // If the user is logged in, display their name or email
               <>
-                <li className="">
-                  {" "}
-                  <p>{user.name}</p>
-                </li>
                 {user.role === "customer" && (
                   <li>
                     <Link to="/myorders">My Orders</Link>
                   </li>
                 )}
-                {user.role === "adminrefat" && (
+                {user.role === "meheraadmin" && (
                   <li>
                     <Link to="/customerOrder">New Orders</Link>
                   </li>
                 )}
-                {user.role === "adminrefat" && (
+                {user.role === "meheraadmin" && (
                   <li>
                     <Link to="/allDelevary">Delevary Products</Link>
                   </li>
                 )}
-                {user.role === "adminrefat" && (
+                {user.role === "meheraadmin" && (
                   <li>
                     <Link to="/postProduct"> Product post</Link>
                   </li>
                 )}
+                <li className="border-2 rounded-full border-green-400">
+                  {" "}
+                  <p>{user.name}</p>
+                </li>
               </>
             ) : (
               <li>
