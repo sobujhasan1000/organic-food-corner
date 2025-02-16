@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-flow-col gap-4">
           <a
             className="link link-hover"
-            href="https://www.facebook.com/GameZone24BD"
+            href="https://www.facebook.com/profile.php?id=61568458295433"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
           <a
             className="link link-hover"
-            href="https://www.facebook.com/GameZone24BD"
+            href="https://www.facebook.com/profile.php?id=61568458295433"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
           <a
             className="link link-hover"
-            href="https://www.facebook.com/GameZone24BD"
+            href="https://www.facebook.com/profile.php?id=61568458295433"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +55,8 @@ const Footer = () => {
       </nav>
       <aside>
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by
-          Palli-sattaw
+          Copyright © {new Date().getFullYear()} - All right reserved by Organic
+          foods corner
         </p>
       </aside>
     </footer>

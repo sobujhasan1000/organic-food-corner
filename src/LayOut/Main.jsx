@@ -6,7 +6,7 @@ import { useUser } from "../Context/useUser";
 const Main = () => {
   const { user } = useUser() || {};
   return (
-    <div className="bg-[#cdeede]">
+    <div className="bg-[#f1f5b9]">
       <Navbar user={user} />
       <Outlet />
       <Footer />

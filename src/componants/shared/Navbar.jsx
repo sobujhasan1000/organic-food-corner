@@ -4,7 +4,7 @@ import { useUser } from "../../Context/useUser";
 const Navbar = () => {
   const { user } = useUser();
   return (
-    <div className="navbar bg-[#a9f7d6] ">
+    <div className="navbar bg-[#fcef62] ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
